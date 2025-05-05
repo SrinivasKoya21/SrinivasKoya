@@ -4,13 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 // https://vite.dev/config/
+// vite.config.js
 export default defineConfig({
-  base: '/NewReact/',
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  server:{
-    port:3000,
-  },
+  base: '/NewReact/', // Make sure this is correct
+  plugins: [react(), tailwindcss()],
+  server: { port: 3000 },
 })
+
