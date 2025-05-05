@@ -32,7 +32,7 @@ const HomePage = ({ onGoToPage2, onGoToAbout, onGoToContact }) => {
                 </p>
                 <div ref={aboutRef} className="w-64 h-64 bg-purple-300 rounded-full mx-auto mb-8 overflow-hidden flex items-center justify-center">
                 <img
-                    src="./src/assets/images/srinivaspic.jpg"
+                    src="./srinivaspic.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full"
                 />
