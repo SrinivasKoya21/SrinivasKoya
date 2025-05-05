@@ -5,8 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 // vite.config.js
-export default defineConfig({
-  base: '/NewReact/', // Make sure this is correct
+export default defineConfig({ 
   plugins: [react(), tailwindcss()],
   server: { port: 3000 },
 })
