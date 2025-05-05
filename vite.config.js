@@ -8,6 +8,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({ 
   plugins: [react(), tailwindcss()],
   server: { port: 3000 },
-  base:'/Srinivas/'
+  base:'/SrinivasKoya/'
 })
 
