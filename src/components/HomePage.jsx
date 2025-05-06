@@ -29,7 +29,8 @@ const HomePage = ({ onGoToPage2, onGoToAbout, onGoToContact }) => {
             <div className="text-center max-w-2xl">
                 <h1 className="text-4xl font-bold mb-4 text-gray-800">Welcome to My Portfolio</h1>
                 <p className="text-lg text-gray-700 mb-8">
-                    Hello, This is Sesha Sai Srinivas. Let me present my portfolio.. 👉
+                    Hello, This is Sesha Sai Srinivas. I am Software developer. 
+                    Let me present my portfolio.. 👉
                 </p>
 
                 <div
